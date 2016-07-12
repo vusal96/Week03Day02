@@ -1,0 +1,40 @@
+body{
+	width: 100%;
+	height: auto;
+
+	background-image: url("../img/cat.jpg") ;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.hero{
+	margin: 20% 0 0 0%;
+	width: 150%;
+	height: 300px;
+	background-image: url("../img/hero.jpg");
+	z-index: -1;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Pacifico', cursive;
+	color: #ff33cc;
+	font-size: 30px;
+}
+.tree{
+	margin: -50% 0 0 40%;
+	width:300px;
+	height: 1000px;
+	background-image: url("../img/tree.jpg");
+	z-index: 0;
+	background-attachment: fixed;
+	background-size: cover;
+}
+@font-face{
+	font-family: 'afrodit';
+	src: url('../font/AphroditeSlimPro.otf');
+}
+.heci{
+	font-family: 'afrodit';
+	color: white;
+}
